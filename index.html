@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="section1">
+        <header class="header">
+            <div class="cabecera">
+                <img class="logo-cabe" src="ImagenesF/chatRemo.png" alt="">
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Download</a></li>
+                    </ul>
+                </nav>
+                <button class="button-header">Try For Free</button>
+            </div>                                                   
+        </header>
+
+        <div class="experience">
+            <div class="h1-ex">
+                <h1>
+                    Get the best experience when sending messages.
+                </h1>
+            </div>
+           
+            <div class="p-ex">
+                <p>Platform used to send messages with a myriad of
+                    features, by prioritizing the user experience
+                </p>
+                <button class="down"><img src="../ImagenesF/logotipo-apple.png" alt=""><span>Download Now</span></button>
+                <button class="now"><img src="../ImagenesF/google-play1.png"  alt="">Download Now</button>
+            </div>
+            
+        </div>
+        <script>
+            window.watsonAssistantChatOptions = {
+              integrationID: "ee410de0-7b6e-4d06-a03c-fe5f71005b61", // The ID of this integration.
+              region: "au-syd", // The region your integration is hosted in.
+              serviceInstanceID: "80ca9247-6e6a-4462-956d-cc74bc89eafd", // The ID of your service instance.
+              onLoad: async (instance) => { await instance.render(); }
+            };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+              document.head.appendChild(t);
+            });
+          </script>
+
+    </section>
+    
+    <section class="section2">
+
+        <div class="container">
+            <div class="imgCont">
+                <img src="ImagenesF/Fondo2.png" alt="">
+            </div>
+            <div class="textoCont">
+                <p>Stripe</p>
+                <p>afterpay</p>
+                <p>hopin</p>
+                <p>splunk></p>
+                <p>attentive</p>
+            </div>
+        </div>
+
+
+    </section>
+    
+    <section class="section3">
+        <div class="textoClass3">
+            <div class="pClass3">
+                <button>Featured</button>
+                <h2>Reasons why you should choose a <span class="spClass3">Chatbox.</span></h2>
+                <p>Chatbox has several features that make the reason</p>
+                <p>why you choose chatbox</p>
+            </div>
+            <div class="butClass3">
+                <div class="iconClass3">
+                    <img src="ImagenesF/google-play1.png" alt="">
+                    <p class="iconP">Easy to use</p>
+                    <p class="iconPp">Easy to use for anyone</p>
+                    <p class="iconPp" >and simple.</p>
+                </div>
+                <div class="iconClass3">
+                    <img src="ImagenesF/google-play1.png" alt="">
+                    <p class="iconP">Real Time</p>
+                    <p class="iconPp">Connect with customers</p>
+                    <p class="iconPp">in real time.</p>
+                </div>
+                <div class="iconClass3">
+                    <img src="ImagenesF/google-play1.png" alt="">
+                    <p class="iconP">Safety & Private</p>
+                    <p class="iconPp">Enjoy your comfort and safely</p>
+                    <p class="iconPp">when Communicate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
